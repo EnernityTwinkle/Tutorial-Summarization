@@ -6,7 +6,8 @@ https://blog.csdn.net/ALDNOAH_ZERO/article/details/81235863
 
 虚拟机系统里的显卡是软件模拟的，与宿主显卡设备没有关系，所以在这里不使用GPU加速。
 
-3、使用pip安装TensorFlow，详情参考安装TensorFlow
+3、使用pip安装TensorFlow，
+详情参考安装TensorFlow:https://blog.csdn.net/shuzfan/article/details/78516542
 
 pip install tensorflow
 
@@ -23,8 +24,9 @@ print(sess.run(hello))
 4、安装pycharm开发工具，启动命令：sudo sh pycharm/bin/pycharm.sh
 
 5、进行测试，结果如下：
+![TensorFlow](https://github.com/EnernityTwinkle/Tutorial-Summarization/blob/master/python-config/images/tensorflow1.png)
  
-6、进行案例测试，参考案例实践。
+6、进行案例测试，参考案例实践:https://blog.csdn.net/cs_hnu_scw/article/details/79695347。
 
 TensorFlow相关概念：
 

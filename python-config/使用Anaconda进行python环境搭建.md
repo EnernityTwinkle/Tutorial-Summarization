@@ -1,3 +1,10 @@
+一、Windows系统下安装Anaconda
+
+1.1 在官网https://www.anaconda.com/distribution/#download-section上下载Anaconda，这里我选择的是Python2.7版本的,下载完成后按照指示正常安装即可
+
+1.2 安装成功后，在已安装程序中找到Anaconda Prompt，进入Anaconda Prompt，正常测试如下：
+![Anaconda](https://github.com/EnernityTwinkle/Tutorial-Summarization/blob/master/python-config/images/Anaconda1.png)
+
 linux服务器安装anaconda:
 
 参考网址：https://www.cnblogs.com/andylhc/p/9513504.html

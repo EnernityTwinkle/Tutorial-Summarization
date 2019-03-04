@@ -5,24 +5,24 @@
 1.2 安装成功后，在已安装程序中找到Anaconda Prompt，进入Anaconda Prompt，正常测试如下：
 ![Anaconda](https://github.com/EnernityTwinkle/Tutorial-Summarization/blob/master/python-config/images/Anaconda1.png)
 
-linux服务器安装anaconda:
+二、linux服务器安装anaconda:
 
 参考网址：https://www.cnblogs.com/andylhc/p/9513504.html
 
-1.1 下载安装脚本：
+2.1 下载安装脚本：
 
 wget https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh
 
-1.2 运行安装向导：
+2.2 运行安装向导：
 
 bash Anaconda3-5.2.0-Linux-x86_64.sh
 
-1.3 确认是否安装成功：（需要重新启动终端）
+2.3 确认是否安装成功：（需要重新启动终端）
 
 conda –version
 
 
-使用Anaconda管理多个版本的python环境参考网址：https://jingyan.baidu.com/album/22a299b5e6e4909e18376a4b.html?picindex=2
+三、使用Anaconda管理多个版本的python环境参考网址：https://jingyan.baidu.com/album/22a299b5e6e4909e18376a4b.html?picindex=2
 
 示例：现在，我想添加一个Python2.7的环境，执行命令：conda create --name python27 python=2.7，命令中我制定了环境名称是python27，指定了Python版本是2.7，执行命令后，Conda会自动下载最新版的Python2.7，并自动部署。
 

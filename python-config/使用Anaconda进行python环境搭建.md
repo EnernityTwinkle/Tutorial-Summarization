@@ -46,7 +46,7 @@ or conda install python=3.6
 命令更改为：source/conda activate py27即可。
 
 
-更换pip源：
+四、更换pip源：
 
 1、在windows文件管理器中,输入 %APPDATA%
 
@@ -90,7 +90,7 @@ disable-pip-version-check = true
 timeout = 6000 
 
  
-更换conda源：
+五、更换conda源：
 
 1、在cmd下输入：conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
 
@@ -98,11 +98,11 @@ timeout = 6000
 
 #好了，这次可以开心的下载东西了
 
-# 如何删除添加的源呢？
+#如何删除添加的源呢？
 
-# conda config --remove channels 'https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/' 
+#conda config --remove channels 'https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/' 
 
-# 看看当前的 cofig 是什么样的
+#看看当前的 cofig 是什么样的
 
 conda config --show
 

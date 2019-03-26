@@ -1,4 +1,4 @@
-1.使用Anaconda安装指定版本的pytorch:
+### 1.使用Anaconda安装指定版本的pytorch:
 
 conda install pytorch=0.4.0 -c soumith
 
@@ -11,6 +11,8 @@ pip install pytorch==0.4.0
 import torch
 
 print(torch.__version__)
+
+ps:如果上面方法出错，参考pytorch官网方法安装：https://pytorch.org/get-started/locally/
 
 2、安装torchtext(version 0.2.3)
 

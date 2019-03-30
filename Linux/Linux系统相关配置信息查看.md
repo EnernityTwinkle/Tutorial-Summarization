@@ -1,4 +1,5 @@
 1、查看内核/操作系统/CPU信息	uname -a
+   查看内核版本：cat /proc/version
 
 2、查看操作系统版本	cat head -n 1 /etc/issue
 

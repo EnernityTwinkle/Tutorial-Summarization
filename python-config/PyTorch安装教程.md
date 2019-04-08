@@ -12,7 +12,8 @@ import torch
 
 print(torch.__version__)
 
-ps:如果上面方法出错，可以先从开源软件镜像上（https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/win-64/）下载对应版本的文件（网址是win-64的），然后输入下面的命令：
+ps:如果上面方法出错，可以先从开源软件镜像上（https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/win-64/） 
+下载对应版本的文件（网址是win-64的），然后输入下面的命令：
 ```
 conda install numpy mkl cffi
 conda install --offline pytorch-1.0.1-py3.7_cuda100_cudnn7_1.tar.bz2

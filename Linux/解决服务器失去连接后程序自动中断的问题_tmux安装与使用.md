@@ -1,4 +1,21 @@
 参考网址：https://www.jianshu.com/p/48b5b61e1c38
+基本命令参考网址：https://www.cnblogs.com/lizhang4/p/7325086.html
+
+# 基本使用命令
+
+1、输入‘tmux’进入，或者‘tmux new -s SessionName’进入有名称的会话
+
+2、ctrl+b d （松开ctrl+b后再按d）脱离当前会话，回到shell的终端环境
+
+3、tmux ls 终端环境查看会话列表
+
+4、tmux attach 返回会话
+
+5、tmux a -t session1 从终端环境返回指定会话
+
+6、ctrl+b &关闭当前窗口
+
+7、ctrl+b s选择并切换会话；在同时开启了多个会话时使用
 
 使用脚本：
 

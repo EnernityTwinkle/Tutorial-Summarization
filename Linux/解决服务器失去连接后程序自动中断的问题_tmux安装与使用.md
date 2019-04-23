@@ -5,35 +5,35 @@
 #!/bin/bash
 
 
-# Script for installing tmux on systems where you don't have root access.
+#Script for installing tmux on systems where you don't have root access.
 
-# tmux will be installed in $HOME/local/bin.
+#tmux will be installed in $HOME/local/bin.
 
-# It's assumed that wget and a C/C++ compiler are installed.
+#It's assumed that wget and a C/C++ compiler are installed.
 
 
-# exit on error
+#exit on error
 
 set -e
 
 
 
-# create our directories
+#create our directories
 
 mkdir -p $HOME/local $HOME/tmux_tmp
 
 cd $HOME/tmux_tmp
 
 
-# download source files for tmux, libevent, and ncurses
+#download source files for tmux, libevent, and ncurses
 
 
-# extract files, configure, and compile
+#extract files, configure, and compile
 
 
 ############
 
-# libevent #
+#libevent #
 
 ############
 
@@ -53,7 +53,7 @@ cd ..
 
 ############
 
-# ncurses  #
+#ncurses  #
 
 ############
 
@@ -73,7 +73,7 @@ cd ..
 
 ############
 
-# tmux     #
+#tmux     #
 
 ############
 
@@ -89,7 +89,7 @@ cd ..
 
 
 
-# cleanup
+#cleanup
 
 rm -rf $HOME/tmux_tmp
 

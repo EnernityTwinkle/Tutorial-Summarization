@@ -28,4 +28,9 @@ git remote add origin http://XXX/NER.git
 git push -u origin --all
 git push -u origin --tags
 ```
-### 5、
+### 5、本地和远程仓库不一致时想要同步时(https://www.jianshu.com/p/ea6ec80ad5f2)
+```
+ git pull 
+ git commit -m "first commit"
+ git push -u origin master
+```

@@ -20,6 +20,12 @@ conda install --offline pytorch-1.0.1-py3.7_cuda100_cudnn7_1.tar.bz2
 ```
 另外，也可以参考pytorch官网方法安装：https://pytorch.org/get-started/locally/
 
+Linux 系统：
+```
+wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/linux-64/pytorch-1.0.0-py3.6_cuda8.0.61_cudnn7.1.2_1.tar.bz2
+conda install --offline pytorch-1.0.1-py3.7_cuda100_cudnn7_1.tar.bz2
+```
+
 2、安装torchtext(version 0.2.3)
 
 用conda安装出现PackageNotFoundError，

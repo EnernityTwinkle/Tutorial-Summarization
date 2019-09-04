@@ -26,6 +26,13 @@ wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/linux-64/pytorc
 conda install --offline pytorch-1.0.1-py3.7_cuda100_cudnn7_1.tar.bz2
 ```
 
+卸载pytorch:
+```
+conda uninstall pytorch
+
+conda uninstall libtorch
+```
+
 2、安装torchtext(version 0.2.3)
 
 用conda安装出现PackageNotFoundError，

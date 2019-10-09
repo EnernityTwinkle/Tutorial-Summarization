@@ -93,8 +93,9 @@ cd ..
 #tmux     #
 
 ############
+tar xvzf tmux-2.7.tar.gz
 
-cd tmux
+cd tmux-2.7
 
 ./configure CFLAGS="-I$HOME/local/include -I$HOME/local/include/ncurses" LDFLAGS="-L$HOME/local/lib -L$HOME/local/include/ncurses -L$HOME/local/include"
 

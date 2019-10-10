@@ -2,6 +2,8 @@
 
 pip install tensorflow-gpu==1.8.0
 
+需注意CUDA版本和TensorFlow版本的适配。
+
 1、安装cuda，网址为：https://developer.nvidia.com/cuda-downloads
 可参考教程：https://blog.csdn.net/Mr_xuexi/article/details/88815107
 

@@ -3,6 +3,7 @@
 pip install tensorflow-gpu==1.8.0
 
 1、安装cuda，网址为：https://developer.nvidia.com/cuda-downloads
+可参考教程：https://blog.csdn.net/Mr_xuexi/article/details/88815107
 
 2、cuda安装之后，因为版本不匹配问题，重启后发现ubuntu系统进不到图形界面，于是删除cuda-10.0，参考网址为：
 
